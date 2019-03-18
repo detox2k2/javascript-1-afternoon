@@ -37,18 +37,17 @@ var devMountainGoal = null
 //plus the value of the name parameter.
 
 //Code here
-function declaration (greeting) {
-  Hello + Collins
+function greeting (name) {
+  return "Hello, " + name
 }
-
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
 //Code Here
-var NewGreeting = function () {
-  alert("Hello");
+var newGreeting = function (name) {
+  return "Hello, " + name
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -63,7 +62,7 @@ var NewGreeting = function () {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-var groceries = ["apples, milk, eggs,bread"];
+var groceries = ["apples", "milk", "eggs","bread"];
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
@@ -83,7 +82,7 @@ var dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = "name";
+var devMountainClassPet = dog.name
 //////////////////PROBLEM 11////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -113,16 +112,14 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 //Code Here
-function add(1,2){
-return 1+2;
-}
+function add(one,two){
+return one+two;
+};
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-function add(3,4){
- return "mathSum"  
-}
+var mathSum=add(3,4);
 //////////////////PROBLEM 13////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
@@ -168,25 +165,21 @@ function pond() {
 //below to contain only the appropriate variable names
 //as strings.
 
-//This array should contain the variable names (as strings) accessible in the global scope.
-// let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+//This array// let globalScope  should contain the variable names (as strings) accessible in the global scope.
+let globalScope = ["duck",];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-function bathroom (["duck"+"sailorDuck"+"rubberDuck"+"realDuck"]){
+let bathroomScope = [ "duck", "rubberDuck",];
 
-}
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-function bathtub = ({"duck"+"sailorDuck"+"rubberDuck"+"realDuck"}){
+let bathtubScope = ["duck", "rubberDuck","sailorDuck"];
 
-}
+
+
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
-function pond = (["duck"+"sailorDuck"+"rubberDuck"+"realDuck"]){
+let pondScope = ["duck","realDuck"];
 
-}
 //////////////////PROBLEM 15////////////////////
 
 //Create a variable called age with your age assigned to you
