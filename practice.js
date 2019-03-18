@@ -37,17 +37,29 @@ var devMountainGoal = null
 //plus the value of the name parameter.
 
 //Code here
+<<<<<<< HEAD
 function greeting (name) {
   return "Hello, " + name
 }
+=======
+function declaration (greeting) {
+  Hello + Collins
+}
+
+>>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
 //Code Here
+<<<<<<< HEAD
 var newGreeting = function (name) {
   return "Hello, " + name
+=======
+var NewGreeting = function () {
+  alert("Hello");
+>>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -62,7 +74,11 @@ var newGreeting = function (name) {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+<<<<<<< HEAD
 var groceries = ["apples", "milk", "eggs","bread"];
+=======
+var groceries = ["apples, milk, eggs,bread"];
+>>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
@@ -82,7 +98,11 @@ var dog = {
 //variable called devMountainClassPet.
 
 //Code Here
+<<<<<<< HEAD
 var devMountainClassPet = dog.name
+=======
+var devMountainClassPet = "name";
+>>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
 //////////////////PROBLEM 11////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -177,8 +197,10 @@ let bathtubScope = ["duck", "rubberDuck","sailorDuck"];
 
 
 
+
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck","realDuck"];
+
 
 //////////////////PROBLEM 15////////////////////
 
