@@ -3,13 +3,13 @@
 //Create a variable called myName that is a string data type
 
 //Code here 
-var myName = "Collins + Evulukwu";
+var myName = "collins";
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
-var myAge = 2000;
+var myAge = 35;
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
@@ -21,8 +21,8 @@ var lovesCode = true;
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
-var greatestFear;
-alert(greatestFear); //shows undefined
+var greatestFear = undefined;
+ //shows undefined
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
@@ -37,29 +37,21 @@ var devMountainGoal = null
 //plus the value of the name parameter.
 
 //Code here
-<<<<<<< HEAD
-function greeting (name) {
-  return "Hello, " + name
-}
-=======
-function declaration (greeting) {
-  Hello + Collins
+function greeting(name){
+    return ("Hello, " + name)
 }
 
->>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
+
+
+
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
 //Code Here
-<<<<<<< HEAD
-var newGreeting = function (name) {
-  return "Hello, " + name
-=======
-var NewGreeting = function () {
-  alert("Hello");
->>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
+var newGreeting = function(name){
+    return ("Hello, " + name)
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -67,18 +59,14 @@ var NewGreeting = function () {
 //Name it finalGreeting.
 
 //Code Here
-// var NewGreeting => (finalGreeting)
+var finalGreeting = (name) => ("Hello, " + name)
 //////////////////PROBLEM 9////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-<<<<<<< HEAD
-var groceries = ["apples", "milk", "eggs","bread"];
-=======
-var groceries = ["apples, milk, eggs,bread"];
->>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
+var groceries = ["apples","milk","eggs","bread"]
 //////////////////PROBLEM 10////////////////////
 
 //Create an object saved to the variable dog.
@@ -88,21 +76,16 @@ var groceries = ["apples, milk, eggs,bread"];
 
 //Code Here
 var dog = {
-  name: "Angus",
-  color: "black",
-  age: 8,
-  goodBoy: true
-
+    name: "angus",
+    color: "black",
+    age: 8,
+    goodBoy: true
 }
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-<<<<<<< HEAD
-var devMountainClassPet = dog.name
-=======
-var devMountainClassPet = "name";
->>>>>>> b543f46ad9ea4db679bb4a863c95883385a7eea8
+var devMountainClassPet = "angus"
 //////////////////PROBLEM 11////////////////////
 
 //Write a function called nameCheck that takes in a name parameter. 
@@ -113,17 +96,14 @@ var devMountainClassPet = "name";
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-function nameCheck(name) {
-  if (name ===  "Steven") {
-    return "What is up Steven?"
-  }
-  if (name === "Bryan") {
-  return "Hey Bryan!"
-  }
-  else {
-    return "Cool name, " + name
-    
-  }
+function nameCheck (name){
+if(name === 'Steven'){
+    return('What is up Steven?')
+} else if (name === 'Bryan'){
+    return('Hey Bryan!')
+} else {
+    return ('Cool name, ' + name)
+}
 }
 //////////////////PROBLEM 12////////////////////
 
@@ -132,14 +112,16 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 //Code Here
-function add(one,two){
-return one+two;
-};
+function add (num1, num2){
+    return(num1 + num2)
+}
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-var mathSum=add(3,4);
+add(3,4)
+
+var mathSum = add(3,4)
 //////////////////PROBLEM 13////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
@@ -150,20 +132,15 @@ var mathSum=add(3,4);
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-function faveColorFinder(color){
-if (color === "red") {
-  return "red is a great color"
-}
-if (color === "green") {
-  return "green is a solid favorite color"
-}
- if (color === "black"){
-   return "so trendy"
- }
-else {
-  return"you need to evaluate your favorite color choice"
-}
-}
+function faveColorFinder (color){
+    if(color === 'red'){
+        return('red is a great color')
+    } else if (color === 'green'){
+        return('green is a solid favorite color')
+    } else if(color === 'black'){
+       return ('so trendy')
+    } else {return ('you need to evaluate your favorite color choice')}
+    }
 //////////////////PROBLEM 14////////////////////
 
 let duck = "cute";
@@ -186,34 +163,34 @@ function pond() {
 //as strings.
 
 //This array// let globalScope  should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck",];
+let globalScope = ['duck']
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = [ "duck", "rubberDuck",];
+let bathroomScope = ['duck','rubberDuck']
 
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "rubberDuck","sailorDuck"];
 
+let bathtubScope = ['duck', 'rubberDuck','sailorDuck']
 
 
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck","realDuck"];
 
+let pondScope = ['duck','realDuck']
 
 //////////////////PROBLEM 15////////////////////
 
 //Create a variable called age with your age assigned to you
 
 // Code Here
-var age = 35;
+var age = 100
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-var age = 36
+age += 1
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-var age = 999
+age = 999
